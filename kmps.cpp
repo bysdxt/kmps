@@ -1,14 +1,20 @@
 #include "kmps.h"
 
 namespace kmps {
-    MemNode::MyTy * MemNode::operator[](Ty key) {
+    MemNode::Node * MemNode::operator[](KeyType key) {
         return nullptr;
     }
-    const MemNode::MyTy * MemNode::operator[](Ty key) const {
+    MemNode::KeyType MemNode::operator*() const {
+        return KeyType();
+    }
+    const MemNode::Node * MemNode::operator[](KeyType key) const {
         return nullptr;
     }
     void MemNode::operator_delete() {
         
     }
     void MemNode::operator_delete_arr() { }
+    MemNode::Node & MemNode::operator()(KeyType Key) {
+        return *this;
+    }
 }
