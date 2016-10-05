@@ -150,11 +150,15 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="FastMutex.cpp" />
     <ClCompile Include="kmps.cpp" />
     <ClCompile Include="main.cpp" />
+    <ClCompile Include="MemNode.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="FastMutex.h" />
     <ClInclude Include="kmps.h" />
+    <ClInclude Include="MemNode.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
