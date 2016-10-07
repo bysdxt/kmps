@@ -1,7 +1,7 @@
 #include "kmps.h"
 
 namespace kmps {
-    MemNode::Node * MemNode::operator[](KeyType key) {
+    MemNode::Node * MemNode::createChild(KeyType Key) {
         return nullptr;
     }
     MemNode::KeyType MemNode::operator*() const {
@@ -10,11 +10,7 @@ namespace kmps {
     const MemNode::Node * MemNode::operator[](KeyType key) const {
         return nullptr;
     }
-    void MemNode::operator_delete() {
-        
-    }
-    void MemNode::operator_delete_arr() { }
-    MemNode::Node & MemNode::operator()(KeyType Key) {
-        return *this;
+    MemNode::Node * MemNode::operator[](KeyType key) {
+        return nullptr;
     }
 }
