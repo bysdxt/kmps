@@ -17,12 +17,21 @@
     <ClCompile Include="main.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="MemNode.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="FastMutex.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="kmps.h">
       <Filter>头文件</Filter>
     </ClInclude>
-    <ClInclude Include="utils.h">
+    <ClInclude Include="MemNode.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="FastMutex.h">
       <Filter>头文件</Filter>
     </ClInclude>
   </ItemGroup>
